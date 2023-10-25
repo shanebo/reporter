@@ -1,0 +1,20 @@
+{
+  "name": "@dylanjs/reporter",
+  "version": "0.1.0",
+  "description": "Middleware for Dylan which provides logging, error handling, and Sentry capturing.",
+  "license": "MIT",
+  "keywords": [
+    "middleware",
+    "dylan"
+  ],
+  "repository": "shanebo/reporter",
+  "author": "Shane Thacker <shane@steadymade.com>",
+  "main": "./lib/index",
+  "dependencies": {
+    "@sentry/integrations": "~6.9.0",
+    "@sentry/node": "~6.9.0",
+    "safe-stable-stringify": "^2.4.3",
+    "colorette": "^2.0.20",
+    "klona": "^2.0.4"
+  }
+}
